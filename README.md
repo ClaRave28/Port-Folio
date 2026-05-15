@@ -71,3 +71,26 @@ export default defineConfig([
   },
 ])
 ```
+
+# To restart the project
+
+```
+npm run dev
+```
+
+# inspiration
+
+- NavBar
+- Footer
+- Project Menu
+- Tools uses = Technologies uses
+- drop off my CV
+- put my social media : linkedin, GitHub
+- Page "About me"
+- Add GitHib calendar
+- changer la souris
+- Choose a good palette 
+
+Emmener le recruteur dans mon univers
+
+https://asfakur-portfolio-nextjs.vercel.app/
