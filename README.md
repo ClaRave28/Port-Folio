@@ -78,6 +78,25 @@ export default defineConfig([
 npm run dev
 ```
 
+# Pour ajouter un composant
+
+```
+npx shadcn@latest add "composant"
+
+ex: 
+npx shadcn@latest add button
+```
+
+# Bibliothèques de composants React populaire
+
+- https://ui.shadcn.com/           #stylisé avec Tailwind CSS
+- https://daisyui.com/
+
+
+## Framework CSS
+
+- TailWind CSS (utilitaires)
+
 # inspiration
 
 - NavBar
@@ -94,3 +113,31 @@ npm run dev
 Emmener le recruteur dans mon univers
 
 https://asfakur-portfolio-nextjs.vercel.app/
+
+- mon identité (nom, prénom, date de naissance, email, brève descrption de qui je suis, lien linkedin)
+
+- parcours scolaire (lycée, bac, études à l'epf)
+
+- Connaissances de soi (points forts, points faibles, ce que j'aime, ma devise)
+
+- Informatique, add a logiciel
+
+- langues, parler de l'anglais et du certificat voltaire
+
+- Parler des expériences professionnelles
+
+- expériences associatives (au sein de l'école)
+
+- Parler des projets faits à l'école
+
+- Parler des projets persos
+
+- Mes compétences (justification, ou je pense avoir acquis cette compétence, niveau (maitrisé, avancé, application, novice))
+
+- défis ?
+
+- Parler de mon projet professionel
+
+- Ajouter les rapports de stage
+
+
