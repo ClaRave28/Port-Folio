@@ -140,4 +140,7 @@ https://asfakur-portfolio-nextjs.vercel.app/
 
 - Ajouter les rapports de stage
 
+# Palette de couleurs 
 
+- sur coolors
+- Pastel Lavender
