@@ -186,6 +186,19 @@
   }
 }
 
+#root {
+  background-color: var(--wisteria-2);
+  min-height: 100vh;
+}
+
+.flowers {
+  width: 100%;
+  max-width: 350px;
+  position: absolute;
+  left: 37px;
+  top: 139px;
+}
+
 
 :root {
   --thistle: #dec9e9ff;

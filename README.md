@@ -118,27 +118,30 @@ https://asfakur-portfolio-nextjs.vercel.app/
 
 - parcours scolaire (lycée, bac, études à l'epf)
 
-- Connaissances de soi (points forts, points faibles, ce que j'aime, ma devise)
 
-- Informatique, add a logiciel
-
-- langues, parler de l'anglais et du certificat voltaire
-
+```
 - Parler des expériences professionnelles
-
+- Ajouter les rapports de stage
 - expériences associatives (au sein de l'école)
+```
 
+```
 - Parler des projets faits à l'école
-
 - Parler des projets persos
+```
 
+```
 - Mes compétences (justification, ou je pense avoir acquis cette compétence, niveau (maitrisé, avancé, application, novice))
+- langues, parler de l'anglais et du certificat voltaire
+- Connaissances de soi (points forts, points faibles, ce que j'aime, ma devise)
+- Informatique, add a logiciel
+```
 
 - défis ?
 
 - Parler de mon projet professionel
 
-- Ajouter les rapports de stage
+
 
 # Palette de couleurs 
 
