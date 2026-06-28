@@ -187,17 +187,54 @@
 }
 
 #root {
-  background-color: var(--wisteria-2);
   min-height: 100vh;
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #000000;
+  overflow: hidden;
 }
 
 .flowers {
   width: 100%;
-  max-width: 350px;
+  max-width: 500px;
   position: absolute;
-  left: 37px;
-  top: 139px;
+  left: 75px;
+  top: 125px;
 }
+
+.citation {
+  position: absolute;
+  font-size: 45px;
+  top: 260px;
+  right: 180px;
+}
+
+.neon {
+  color: #a06cd5;
+  text-shadow:
+    0 0 7px #a06cd5,
+    0 0 10px #a06cd5,
+    0 0 21px #a06cd5,
+    0 0 42px #6247aa,
+    0 0 82px #6247aa,
+    0 0 92px #6247aa;
+  animation: neon-pulse 2s ease-in-out infinite;
+}
+
+@keyframes neon-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes crystal-shine {
+  0%, 100% { opacity: 0.2; transform: scale(1) rotate(0deg); }
+  50% { opacity: 1; transform: scale(2.5) rotate(20deg); }
+}
+
 
 
 :root {
@@ -211,4 +248,5 @@
   --deep-lilac: #815ac0ff;
   --deep-lilac-2: #7251b5ff;
   --deep-lilac-3: #6247aaff;
+  --black : #000000;
 }

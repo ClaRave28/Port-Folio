@@ -147,3 +147,7 @@ https://asfakur-portfolio-nextjs.vercel.app/
 
 - sur coolors
 - Pastel Lavender
+
+# Fonts
+
+- Utilisation du site FontSource
