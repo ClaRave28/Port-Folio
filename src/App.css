@@ -204,6 +204,8 @@
   position: absolute;
   left: 75px;
   top: 125px;
+  animation: float 6s ease-in-out infinite;
+  filter: drop-shadow(0 0 30px var(--bright-lavender));
 }
 
 .citation {
@@ -225,16 +227,26 @@
   animation: neon-pulse 2s ease-in-out infinite;
 }
 
+
 @keyframes neon-pulse {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.7; }
+}
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-15px) rotate(1deg);
+  }
 }
 
 @keyframes crystal-shine {
   0%, 100% { opacity: 0.2; transform: scale(1) rotate(0deg); }
   50% { opacity: 1; transform: scale(2.5) rotate(20deg); }
 }
-
 
 
 :root {
