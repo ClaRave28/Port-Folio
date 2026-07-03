@@ -161,3 +161,8 @@ https://asfakur-portfolio-nextjs.vercel.app/
 
 npm install lucide-react
 npm install react-icons
+
+
+# emailjs
+npm install @emailjs/browser
+template_a7lhbuq
