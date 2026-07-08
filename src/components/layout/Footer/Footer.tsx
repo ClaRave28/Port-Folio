@@ -41,7 +41,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#1a1025] text-white/80 px-10 py-10 flex flex-col sm:flex-row justify-between gap-10">
+    <footer className="bg-[#1a1025] text-white/80 px-10 py-4 flex flex-col sm:flex-row justify-between gap-10 ">
 
 
       <nav>
@@ -66,7 +66,7 @@ export default function Footer() {
 
                 <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
                   <div className="flex flex-col gap-1">
-                    <label htmlFor="recruiter_email" className="text-sm text-white/70">
+                    <label htmlFor="recruiter_email" className="text-sm text-[var(--white)]/70">
                       your email address
                     </label>
                     <input
@@ -79,7 +79,7 @@ export default function Footer() {
                     />
                   </div>
                   <div className="flex flex-col gap-1">
-                    <label htmlFor="recruiter_message" className="text-sm text-white/70">
+                    <label htmlFor="recruiter_message" className="text-sm text-[var(--white)]/70">
                       Message
                     </label>
                     <textarea

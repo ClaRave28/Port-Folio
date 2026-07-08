@@ -190,10 +190,11 @@
   min-height: 100vh;
 }
 
+
 .background {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  flex: 1;
   background: #000000;
   overflow: hidden;
 }
@@ -202,7 +203,7 @@
   width: 100%;
   max-width: 500px;
   position: absolute;
-  left: 75px;
+  left: 10px;
   top: 125px;
   animation: float 6s ease-in-out infinite;
   filter: drop-shadow(0 0 30px var(--bright-lavender));
@@ -261,4 +262,5 @@
   --deep-lilac-2: #7251b5ff;
   --deep-lilac-3: #6247aaff;
   --black : #000000;
+  --white : white;
 }

@@ -166,3 +166,7 @@ npm install react-icons
 # emailjs
 npm install @emailjs/browser
 template_a7lhbuq
+
+# routes
+
+npm install react-router-dom

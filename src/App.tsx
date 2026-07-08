@@ -1,61 +1,36 @@
-import { CircleUserRound, BookOpen, Zap, Sparkles, FolderGit2, BriefcaseBusiness, Swords } from "lucide-react";
 
 import Footer from "./components/layout/Footer/Footer";
-
+import { Routes, Route } from "react-router-dom";
 import './App.css'
-import flowersImg from './assets/flowers.png'
-import { Button } from "@/components/ui/button"
 import Background from './components/layout/Background/Background'
+import Home from './components/sections/Home/Home'
+import AboutMe from './components/sections/AboutMe/AboutMe'
+import Academic from './components/sections/Academic/Academic'
+import Skills from './components/sections/Skills/Skills'
+import Projects from './components/sections/Projects/Projects'
+import ProfessionalProject from './components/sections/ProfessionnalProject/ProfessionalProject'
+import Challenges from './components/sections/Challenges/Challenges'
 
 function App() {
   return (
 
-    <>
-      <div className="min-h-screen flex flex-col">
-        <main className="flex-1">
-          <Background>
-            <div style={{ position: 'relative', paddingTop: '470px', paddingLeft: '600px' }}>
-
-              <h1 className=" neon citation font-display  text-[#6247aa]">
-                ❝Il faut toute la vie pour apprendre à vivre❞
-              </h1>
-              <img className="flowers" src={flowersImg} alt="flowers" />
-              <div className="flex gap-3">
-                <Button className="transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
-                  <CircleUserRound />
-                  About me
-                </Button>
-                <Button className="transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
-                  <BookOpen />
-                  Academic
-                </Button>
-                <Button className="transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
-                  <Zap />
-                  Skills
-                </Button>
-                <Button className="transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
-                  <Sparkles />
-                  Experiences
-                </Button>
-                <Button className="transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
-                  <FolderGit2 />
-                  Projects
-                </Button>
-                <Button className="transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
-                  <BriefcaseBusiness />
-                  Professional project
-                </Button>
-                <Button className="transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
-                  <Swords />
-                  Challenges</Button>
-              </div>
-
-            </div>
-          </Background>
-        </main>
-        <Footer />
-      </div>
-    </>
+    <div className="min-h-screen flex flex-col">
+      <main className="flex-1 flex flex-col">
+        <Background>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about-me" element={<AboutMe />} />
+            <Route path="/academic" element={<Academic />} /> 
+            <Route path="/skills" element={<Skills />} /> 
+            <Route path="/projects" element={<Projects />} /> 
+            <Route path="/professional-project" element={<ProfessionalProject />} /> 
+            <Route path="/challenges" element={<Challenges />} /> 
+          </Routes>
+        </Background>
+      </main>
+      <Footer />
+    </div>
+    
 
   );
 

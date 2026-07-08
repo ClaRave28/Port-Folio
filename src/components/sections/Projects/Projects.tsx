@@ -1,6 +1,6 @@
 import '@/App.css'
 
-function Academic() {
+function Projects() {
     return (
         <div >
             
@@ -8,4 +8,4 @@ function Academic() {
     )
 }
 
-export default Academic
+export default Projects
