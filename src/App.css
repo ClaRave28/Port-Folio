@@ -1,3 +1,5 @@
+
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -206,7 +208,15 @@
   left: 10px;
   top: 125px;
   animation: float 6s ease-in-out infinite;
-  filter: drop-shadow(0 0 30px var(--bright-lavender));
+  filter: drop-shadow(0 0 30px var(--color-lilac-500));
+}
+
+.me {
+  width: 100%;
+  max-width: 200px;
+  position: absolute;
+  left: 100px;
+  top: 70px;
 }
 
 .citation {
@@ -214,6 +224,20 @@
   font-size: 45px;
   top: 260px;
   right: 180px;
+}
+
+.hello {
+  position: absolute;
+  font-size: 35px;
+  top: 280px;
+  left: 175px;
+}
+
+.name {
+  position: absolute;
+  font-size: 35px;
+  top: 340px;
+  left: 50px;
 }
 
 .neon {
@@ -250,17 +274,4 @@
 }
 
 
-:root {
-  --thistle: #dec9e9ff;
-  --thistle-2: #dac3e8ff;
-  --wisteria: #d2b7e5ff;
-  --wisteria-2: #c19ee0ff;
-  --bright-lavender: #b185dbff;
-  --lavender-purple: #a06cd5ff;
-  --lavender-purple-2: #9163cbff;
-  --deep-lilac: #815ac0ff;
-  --deep-lilac-2: #7251b5ff;
-  --deep-lilac-3: #6247aaff;
-  --black : #000000;
-  --white : white;
-}
+

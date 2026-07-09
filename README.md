@@ -151,11 +151,12 @@ https://asfakur-portfolio-nextjs.vercel.app/
 # Fonts
 
 - Utilisation du site FontSource
+- npm install @fontsource/courgette
 
 # images
 
 - Canva
-- Remove bg pour enlever le fond de l'image
+- "Remove bg" pour enlever le fond de l'image
 
 # logo lucide-react et react-icons
 

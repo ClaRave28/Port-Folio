@@ -3,6 +3,7 @@
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/figtree";
 @import '@fontsource-variable/dancing-script/wght.css';
+@import '@fontsource/courgette';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -47,7 +48,22 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
-  --font-display: 'Dancing Script Variable', cursive;
+
+  --font-citation: 'Dancing Script Variable', cursive;
+  --font-born: 'Courgette', cursive;
+
+  --color-lilac-100: var(--thistle);
+  --color-lilac-200: var(--thistle-2);
+  --color-lilac-300: var(--wisteria);
+  --color-lilac-400: var(--wisteria-2);
+  --color-lilac-500: var(--bright-lavender);
+  --color-lilac-600: var(--lavender-purple);
+  --color-lilac-700: var(--lavender-purple-2);
+  --color-lilac-800: var(--deep-lilac);
+  --color-lilac-900: var(--deep-lilac-2);
+  --color-lilac-950: var(--deep-lilac-3);
+  --color-black: var(--black);
+  --color-white: var(--white);
 }
 
 :root {
@@ -83,6 +99,19 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  --thistle: #dec9e9ff;
+  --thistle-2: #dac3e8ff;
+  --wisteria: #d2b7e5ff;
+  --wisteria-2: #c19ee0ff;
+  --bright-lavender: #b185dbff;
+  --lavender-purple: #a06cd5ff;
+  --lavender-purple-2: #9163cbff;
+  --deep-lilac: #815ac0ff;
+  --deep-lilac-2: #7251b5ff;
+  --deep-lilac-3: #6247aaff;
+  --black: #000000;
+  --white: white;
 }
 
 .dark {
@@ -133,15 +162,3 @@
   }
 }
 
-:root {
-  --thistle: #dec9e9ff;
-  --thistle-2: #dac3e8ff;
-  --wisteria: #d2b7e5ff;
-  --wisteria-2: #c19ee0ff;
-  --bright-lavender: #b185dbff;
-  --lavender-purple: #a06cd5ff;
-  --lavender-purple-2: #9163cbff;
-  --deep-lilac: #815ac0ff;
-  --deep-lilac-2: #7251b5ff;
-  --deep-lilac-3: #6247aaff;
-}
