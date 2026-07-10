@@ -1,5 +1,8 @@
 import '@/App.css'
 import meImg from '@/assets/profile_with_background.png'
+import FlowerBox from '@/components/Box/FlowerBox';
+import { Button } from "@/components/ui/button"
+
 
 function AboutMe() {
     return (
@@ -14,39 +17,57 @@ function AboutMe() {
                     I'm Clarisse Del Castillo
                 </h1>
                 <div className="flex flex-col gap-4">
-                    <div className="max-w-[800px]  border p-[1px] rounded-xl bg-gradient-to-br from-lilac-800 via-lilac-900 to-lilac-950 text-center">
-                        <div className="rounded-xl bg-black/60 p-2 text-lilac-100 text-lg font-born">
-                            I was born on March 15, 2004, in Ermont, in the Val-d'Oise department (95). I am 22 years old.
-                        </div>
-                    </div>
 
-                    <div className="max-w-[800px]  border p-[1px] rounded-xl bg-gradient-to-br from-lilac-800 via-lilac-900 to-lilac-950 text-center">
-                        <div className="rounded-xl bg-black/60 p-2 text-lilac-100 text-lg font-born">
-                            I am in my fourth year at EPF, a general engineering school.
-                            I am currently majoring in Digital and Intelligent Systems.
-                        </div>
-                    </div>
+                    <div className="flex ">
 
-                    <div className="max-w-[800px] border p-[1px] rounded-xl bg-gradient-to-br from-lilac-800 via-lilac-900 to-lilac-950 text-center">
-                        <div className=" mx-auto rounded-xl bg-black/60 p-2 text-lilac-100 text-lg font-born flex flex-col gap-2">
+                        <div className="relative -mt-[100px] -ml-[1px] w-80 h-80 mx-auto">
+                            <FlowerBox className="absolute inset-0 w-full h-full" />
 
-                            <div >
-                                Digital and Intelligent Systems :
-                            </div>
-
-                            <div className="flex gap-1">
-                                <div className="  mx-auto border p-[1px] rounded-xl bg-lilac-500  text-lilac-100 text-lg font-born">
-                                    4ème année
+                            <div className="absolute inset-0 z-10 flex items-center justify-center">
+                                <div className="w-44 text-center text-lilac-100 text-lg leading-snug ">
+                                    born on March 15, 2004, in Ermont, in the Val-d'Oise department (95). 22 years old.
                                 </div>
-                                <div className="  mx-auto border p-[1px] rounded-xl bg-lilac-500  text-lilac-100 text-lg font-born">
-                                    5ème année
+                            </div>
+                        </div>
+
+                        <div className="relative -mt-[100px] -ml-[10px]  w-80 h-80 mx-auto">
+                            <FlowerBox className="absolute inset-0 w-full h-full" />
+
+                            <div className="absolute inset-0 z-10 flex items-center justify-center">
+                                <div className="w-44 text-center text-lilac-100 text-lg leading-snug">
+                                    fourth year at EPF, a general engineering school.
+                                    majoring in Digital and Intelligent Systems.
                                 </div>
                             </div>
                         </div>
 
                     </div>
+
+
+
+                    <div className="relative -mt-[80px] -mr-[-393px] w-80 h-80 mx-auto">
+                        <FlowerBox className="absolute inset-0 w-full h-full" />
+
+                        <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3">
+                            <div className="w-48 text-center text-lilac-100 text-xl leading-snug">
+                                Digital and Intelligent Systems 
+                            </div>
+                            
+                            <Button
+
+                                className=" border p-1 rounded-xl bg-lilac-500 text-lilac-100 text-s font-born transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--color-lilac-400)]">
+
+                                Syllabus
+                            </Button>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
             </div >
+
         </div >
     );
 }

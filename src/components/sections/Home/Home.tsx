@@ -63,7 +63,8 @@ function Home() {
                         onClick={() => navigate('/challenges')}
                         className="transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--color-lilac-400)]">
                         <Swords />
-                        Challenges</Button>
+                        Challenges
+                        </Button>
                 </div>
 
             </div>

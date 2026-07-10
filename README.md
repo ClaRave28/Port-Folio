@@ -109,6 +109,10 @@ npx shadcn@latest add button
 - Add GitHib calendar
 - changer la souris
 - Choose a good palette 
+- musique ?
+- belles animations aux changements de pages
+- Boutons brillants et son au clic du bouton
+- Box en forme de fleurs
 
 Emmener le recruteur dans mon univers
 
@@ -116,7 +120,10 @@ https://asfakur-portfolio-nextjs.vercel.app/
 
 - mon identité (nom, prénom, date de naissance, email, brève descrption de qui je suis, lien linkedin)
 
+```
 - parcours scolaire (lycée, bac, études à l'epf)
+- Ajout Bulletins
+```
 
 
 ```
