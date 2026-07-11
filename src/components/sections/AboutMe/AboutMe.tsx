@@ -1,5 +1,5 @@
 import '@/App.css'
-import meImg from '@/assets/profile_with_background.png'
+// import meImg from '@/assets/profile_with_background.png'
 import FlowerBox from '@/components/Box/FlowerBox';
 import { Button } from "@/components/ui/button"
 
@@ -8,19 +8,19 @@ function AboutMe() {
     return (
         <div className="flex flex-col">
             <div style={{ position: 'relative', paddingTop: '150px', paddingLeft: '550px' }}>
-                <img className="me" src={meImg} alt="me" />
+                {/* <img className="me" src={meImg} alt="me" /> */}
 
-                <h1 className="hello font-citation  text-lilac-950">
+                <h1 className="neon-2 hello font-citation  text-lilac-950">
                     Hi !
                 </h1>
-                <h1 className="name font-citation  text-lilac-950">
+                <h1 className="neon-2 name font-citation  text-lilac-950">
                     I'm Clarisse Del Castillo
                 </h1>
                 <div className="flex flex-col gap-4">
 
                     <div className="flex ">
 
-                        <div className="relative -mt-[100px] -ml-[1px] w-80 h-80 mx-auto">
+                        <div className="relative -mt-[100px] -ml-[1px] w-80 h-80 mx-auto animate-slide-in-left">
                             <FlowerBox className="absolute inset-0 w-full h-full" />
 
                             <div className="absolute inset-0 z-10 flex items-center justify-center">
@@ -30,7 +30,7 @@ function AboutMe() {
                             </div>
                         </div>
 
-                        <div className="relative -mt-[100px] -ml-[10px]  w-80 h-80 mx-auto">
+                        <div className="relative -mt-[100px] -ml-[10px]  w-80 h-80 mx-auto animate-slide-in-right">
                             <FlowerBox className="absolute inset-0 w-full h-full" />
 
                             <div className="absolute inset-0 z-10 flex items-center justify-center">
@@ -45,7 +45,7 @@ function AboutMe() {
 
 
 
-                    <div className="relative -mt-[80px] -mr-[-393px] w-80 h-80 mx-auto">
+                    <div className="relative -mt-[80px] -mr-[-393px] w-80 h-80 mx-auto animate-slide-in-bottom">
                         <FlowerBox className="absolute inset-0 w-full h-full" />
 
                         <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3">

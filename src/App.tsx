@@ -10,12 +10,14 @@ import Skills from './components/sections/Skills/Skills'
 import Projects from './components/sections/Projects/Projects'
 import ProfessionalProject from './components/sections/ProfessionnalProject/ProfessionalProject'
 import Challenges from './components/sections/Challenges/Challenges'
+import Cursor from "./components/layout/Cursor/Cursor"
 
 function App() {
   return (
 
     <div className="min-h-screen flex flex-col">
       <main className="flex-1 flex flex-col">
+         <Cursor />
         <Background>
           <Routes>
             <Route path="/" element={<Home />} />

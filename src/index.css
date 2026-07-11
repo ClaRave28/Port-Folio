@@ -162,3 +162,13 @@
   }
 }
 
+* {
+  cursor: none;
+}
+
+@media (pointer: fine) {
+  * {
+    cursor: none;
+  }
+}
+

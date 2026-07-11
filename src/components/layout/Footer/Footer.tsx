@@ -12,6 +12,7 @@ import {
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 
+
 export default function Footer() {
 
   const form = useRef<HTMLFormElement>(null);
@@ -51,7 +52,7 @@ export default function Footer() {
             <Dialog>
 
               <DialogTrigger asChild>
-                <Button className="transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
+                <Button className="btn-glossy transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
                   <ContactRound />
                   Contact me
                 </Button>
@@ -95,7 +96,7 @@ export default function Footer() {
                   <Button
                     type="submit"
                     disabled={status === "sending"}
-                    className="hover:drop-shadow-[0_0_20px_var(--wisteria-2)] transition-all duration-300"
+                    className="btn-glossy hover:drop-shadow-[0_0_20px_var(--wisteria-2)] transition-all duration-300"
                   >
                     {status === "sending" ? "Sending..." : "Send"}
                   </Button>

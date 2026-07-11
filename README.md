@@ -178,3 +178,7 @@ template_a7lhbuq
 # routes
 
 npm install react-router-dom
+
+# sounds
+
+- Pixabay
