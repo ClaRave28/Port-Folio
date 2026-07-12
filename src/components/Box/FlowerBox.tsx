@@ -18,7 +18,7 @@ export default function FlowerBox({ className }: FlowerIconProps) {
         </linearGradient>
 
         <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
-          <feGaussianBlur stdDeviation="1.5" result="blur" />
+          <feGaussianBlur stdDeviation="1" result="blur" />
           <feMerge>
             <feMergeNode in="blur" />
             <feMergeNode in="blur" />
