@@ -33,37 +33,41 @@ function Home() {
                     About me
                 </Button>
                 <Button
-                    onClick={() => navigate('/academic')}
+                    onClick={() => {playClick();
+                        navigate('/academic')}}
                     className="btn-glossy transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--color-lilac-400)]">
                     <BookOpen />
                     Academic
                 </Button>
                 <Button
-                    onClick={() => navigate('/skills')}
+                    onClick={() => {playClick();
+                        navigate('/skills')}}
                     className="btn-glossy transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--color-lilac-400)]">
                     <Zap />
                     Skills
                 </Button>
                 <Button
-                    onClick={() => navigate('/experiences')}
+                    onClick={() => {playClick();
+                        navigate('/experiences')}}
                     className="btn-glossy transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--color-lilac-400)]">
                     <Sparkles />
                     Experiences
                 </Button>
                 <Button
-                    onClick={() => navigate('/projects')}
+                    onClick={() => 
+                        {playClick();navigate('/projects')}}
                     className="btn-glossy transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--color-lilac-400)]">
                     <FolderGit2 />
                     Projects
                 </Button>
                 <Button
-                    onClick={() => navigate('/professional-project')}
+                    onClick={() => {playClick(); navigate('/professional-project')}}
                     className="btn-glossy transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--color-lilac-400)]">
                     <BriefcaseBusiness />
                     Professional project
                 </Button>
                 <Button
-                    onClick={() => navigate('/challenges')}
+                    onClick={() => {playClick(); navigate('/challenges')}}
                     className="btn-glossy transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--color-lilac-400)]">
                     <Swords />
                     Challenges

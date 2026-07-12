@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { HugeiconsIcon } from "@hugeicons/react"
 import { Cancel01Icon } from "@hugeicons/core-free-icons"
+import { Sound } from "@/Hooks/Sound"
 
 function Dialog({
   ...props
@@ -53,7 +54,11 @@ function DialogContent({
   ...props
 }: React.ComponentProps<typeof DialogPrimitive.Content> & {
   showCloseButton?: boolean
-}) {
+}
+
+) {
+
+  const playClick = Sound("/sounds/clic.mp3");
   return (
     <DialogPortal>
       <DialogOverlay />
@@ -69,6 +74,9 @@ function DialogContent({
         {showCloseButton && (
           <DialogPrimitive.Close data-slot="dialog-close" asChild>
             <Button
+              onClick={() => {
+                playClick();
+              }}
               variant="ghost"
               className="absolute top-4 right-4"
               size="icon-sm"

@@ -11,12 +11,14 @@ import {
 } from "@/components/ui/dialog";
 import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
+import { Sound } from "@/Hooks/Sound"
 
 
 export default function Footer() {
 
   const form = useRef<HTMLFormElement>(null);
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const playClick = Sound("/sounds/clic.mp3");
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -52,7 +54,11 @@ export default function Footer() {
             <Dialog>
 
               <DialogTrigger asChild>
-                <Button className="btn-glossy transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
+                <Button
+                  onClick={() => {
+                    playClick();
+                  }}
+                  className="btn-glossy transition-all duration-300 hover:drop-shadow-[0_0_20px_var(--wisteria-2)]">
                   <ContactRound />
                   Contact me
                 </Button>
@@ -94,6 +100,9 @@ export default function Footer() {
                   </div>
 
                   <Button
+                    onClick={() => {
+                      playClick();
+                    }}
                     type="submit"
                     disabled={status === "sending"}
                     className="btn-glossy hover:drop-shadow-[0_0_20px_var(--wisteria-2)] transition-all duration-300"
