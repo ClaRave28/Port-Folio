@@ -183,3 +183,11 @@ npm install react-router-dom
 
 - Pixabay
 - Utilisation de la Web Audio API
+
+# composant accordion
+
+- npx shadcn@latest add accordion
+
+# composant dialog
+
+- npx shadcn@latest add dialog
