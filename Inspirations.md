@@ -5,15 +5,16 @@
 - Project Menu
 - Tools uses = Technologies uses
 - drop off my CV
-- put my social media : linkedin, GitHub
+- put my social media : linkedin, GitHub 
 - Page "About me"
 - Add GitHib calendar
-- changer la souris
-- Choose a good palette 
 - musique ?
-- belles animations aux changements de pages
-- Boutons brillants et son au clic du bouton
-- Box en forme de fleurs
+- intégrer un bouton de retour en arrière
+- changer la souris ✅
+- Choose a good palette ✅
+- belles animations aux changements de pages ✅
+- Boutons brillants et son au clic du bouton ✅
+- Box en forme de fleurs ✅
 
 Emmener le recruteur dans mon univers
 

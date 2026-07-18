@@ -87,10 +87,10 @@ function AboutMe() {
                                     </Button>
                                 </DialogTrigger>
 
-                                <DialogContent className="bg-[#1a1025] text-white border-[var(--lavender-purple)] max-h-[80vh] overflow-y-auto sm:max-w-[1150px]">
+                                <DialogContent className="justify-center bg-[#1a1025] text-white border-[var(--lavender-purple)] h-[65vh] sm:max-w-[700px] flex flex-col">
                                     <DialogHeader>
                                         <DialogTitle className="text-[var(--lavender-purple)]">
-                                            Syllabus des cours
+                                            Course Syllabus
                                         </DialogTitle>
 
                                     </DialogHeader>
@@ -99,27 +99,19 @@ function AboutMe() {
                                         4th year
                                     </p>
 
-                                    <div className="flex gap-4">
-                                        <div className="flex-column">
+
+                                    <div className="flex gap-4 flex-1 min-h-0 overflow-y-auto">
+                                        <div className="flex-column w-full">
                                             <Accordion type="single" collapsible className="w-full">
 
-
-
-                                                <AccordionItem value="labour-law" className="border-lilac-800">
-                                                    <AccordionTrigger>
-                                                        Labour Law
-                                                    </AccordionTrigger>
-                                                    <AccordionContent className="text-black">
-                                                        Droit du travail, loi sur le travail...
-                                                    </AccordionContent>
-                                                </AccordionItem>
 
                                                 <AccordionItem value="java" className="border-lilac-800">
                                                     <AccordionTrigger >
                                                         Java Programming Language
                                                     </AccordionTrigger>
                                                     <AccordionContent className="text-black">
-                                                        Contenu...
+                                                        Backend development with Spring Boot.
+                                                        Database integration via JPA/Hibernate.
                                                     </AccordionContent>
                                                 </AccordionItem>
 
@@ -128,22 +120,18 @@ function AboutMe() {
                                                         Mobile Materials
                                                     </AccordionTrigger>
                                                     <AccordionContent className="text-black">
-                                                        Contenu...
+                                                        Kotlin application development.
+                                                        Experience with libraries such as OSMDroid for map integration.
                                                     </AccordionContent>
                                                 </AccordionItem>
-
-
-                                            </Accordion>
-                                        </div>
-                                        <div className="flex-column">
-                                            <Accordion type="single" collapsible className="w-full">
 
                                                 <AccordionItem value="angular-js" className="border-lilac-800">
                                                     <AccordionTrigger >
                                                         Angular and JS
                                                     </AccordionTrigger>
                                                     <AccordionContent className="text-black">
-                                                        Contenu...
+                                                       Front-end development with Angular and TypeScript.
+                                                       Creation of reusable components, service management, routing, and communication with REST APIs.
                                                     </AccordionContent>
                                                 </AccordionItem>
 
@@ -152,23 +140,17 @@ function AboutMe() {
                                                         Symfony Web Development
                                                     </AccordionTrigger>
                                                     <AccordionContent className="text-black">
-                                                        Contenu...
+                                                        Development of an e-commerce website.
+                                                        Product, shopping cart, and order management.
+                                                        Integration of the Stripe payment API.
                                                     </AccordionContent>
                                                 </AccordionItem>
 
-                                                <AccordionItem value="unix-linux" className="border-lilac-800">
-                                                    <AccordionTrigger >
-                                                        UNIX and LINUX Systems
-                                                    </AccordionTrigger>
-                                                    <AccordionContent className="text-black">
-                                                        Contenu...
-                                                    </AccordionContent>
-                                                </AccordionItem>
+
                                             </Accordion>
-
                                         </div>
-
-                                        <div className="flex-column">
+                                        {/* <div className="flex-column"> */}
+                                        <div className="flex-column w-full">
                                             <Accordion type="single" collapsible className="w-full">
 
                                                 <AccordionItem value="git" className="border-lilac-800">
@@ -176,7 +158,8 @@ function AboutMe() {
                                                         Git and Version Control
                                                     </AccordionTrigger>
                                                     <AccordionContent className="text-black">
-                                                        Contenu...
+                                                        Robust Git workflow : interactive rebase, commit squash, controlled force push, conflict resolution.
+
                                                     </AccordionContent>
                                                 </AccordionItem>
 
@@ -185,41 +168,21 @@ function AboutMe() {
                                                         API's Architecture
                                                     </AccordionTrigger>
                                                     <AccordionContent className="text-black">
-                                                        Contenu...
+                                                        Design and Use of REST APIs
+                                                        Endpoint structuring, JSON response format handling
                                                     </AccordionContent>
                                                 </AccordionItem>
 
-                                                <AccordionItem value="networks" className="border-lilac-800">
+
+
+
+                                                <AccordionItem value="unix-linux" className="border-lilac-800">
                                                     <AccordionTrigger >
-                                                        Networks and Infrastructure
+                                                        UNIX and LINUX Systems
                                                     </AccordionTrigger>
                                                     <AccordionContent className="text-black">
-                                                        Contenu...
-                                                    </AccordionContent>
-                                                </AccordionItem>
-
-                                            </Accordion>
-
-                                        </div>
-
-                                        <div className="flex-column">
-                                            <Accordion type="single" collapsible className="w-full">
-
-                                                <AccordionItem value="org-security" className="border-lilac-800">
-                                                    <AccordionTrigger >
-                                                        Organizational Security
-                                                    </AccordionTrigger>
-                                                    <AccordionContent className="text-black">
-                                                        Contenu...
-                                                    </AccordionContent>
-                                                </AccordionItem>
-
-                                                <AccordionItem value="op-security" className="border-lilac-800">
-                                                    <AccordionTrigger >
-                                                        Operational Security
-                                                    </AccordionTrigger>
-                                                    <AccordionContent className="text-black">
-                                                        Contenu...
+                                                        Daily use of the terminal.
+                                                        Using Linux commands on Ubuntu.
                                                     </AccordionContent>
                                                 </AccordionItem>
 
@@ -228,13 +191,15 @@ function AboutMe() {
                                                         Artificial Intelligence
                                                     </AccordionTrigger>
                                                     <AccordionContent className="text-black">
-                                                        Contenu...
+                                                        Python for Data Science (pandas, NumPy, scikit-learn, matplotlib).
+                                                        Work on machine learning models.
                                                     </AccordionContent>
                                                 </AccordionItem>
-
                                             </Accordion>
 
                                         </div>
+
+
 
                                     </div>
 
